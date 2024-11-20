@@ -8,7 +8,6 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot-Solution)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -36,30 +35,17 @@ Users should be able to:
 
 ### Screenshot Solution
 
----------Mobile-first-solution----------------------------------------------------------------------------------
+------------------------------------------------------------MOBILE-FIRST SOLUTION-------------------------------------------------------------------
 ![](./src/A-mobile-design/A1-landingPage.png)
-![](./src/A-mobile-design/A2-Error-state.png)
-![](./src/A-mobile-design/A3-Error-state-missingFields.png)
-![](./src/A-mobile-design/A4-Success-state.png)
-![](./src/A-mobile-design/A5-Form-Filled-out.png)
-![](./src/A-mobile-design/A6-Email-validation.png)
-![](./src/A-mobile-design/A7-Email-validation.png)
 
---------Desktop Solution----------------------------------------------------------------------------------------
+------------------------------------------------------------DESKTOP SOLUTION-------------------------------------------------------------------
 ![](./src/B-desktop-design/B1-landingPage.png)
-![](./src/B-desktop-design/B2-hover-state.png)
-![](./src/B-desktop-design/B3-focus-and-active-state.png)
-![](./src/B-desktop-design/B4-error-state.png)
-
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
 
 ### Built with
 
@@ -73,9 +59,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-Throughout this form validation project, I had opportunity to apply my React theorical knowledge into practice, such as State Management (useState, formData, errors), Event Handling (onChange, onSubmit,), Conditional Rendering (Render error messages, and the success modal dynamically based on the state). In the meantime, I learned how to implement the "Modal Open" React State with CSS for centering and styling the "Modal".
+Throughout this form validation project, I had the opportunity to apply my React theoretical knowledge into practice, such as State Management (useState, formData, errors), Event Handling (onChange, onSubmit,), Conditional Rendering (Render error messages, and success modal dynamically based on the state). In the meantime, I learned how to implement the "Modal Open" React State with CSS for centring and styling the "Modal".
 
 Code snippets:
 
@@ -128,8 +112,6 @@ const handleSubmit = (e) => {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 Areas of focus/improvements:
 REACT: 
 ------"State Managemnet": useState, formData, erros, etc.
@@ -141,12 +123,11 @@ CCS: Flexbox, Media Query.
 
 ### Useful resources
 
-[React](https://reactjs.org/) - JS library: This helped me to understand React features (State Managemnet, Event Handling, Conditional Rendering, etc). 
+[React](https://reactjs.org/) - JS library: This helped me to understand React features (State Management, Event Handling, Conditional Rendering, etc). 
 
-[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - To learn "Flexbox". This website impoved my undersatnding of "Flexbox", such as flex direction.
+[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - To learn "Flexbox". This website improved my understanding of "Flexbox", such as flex-direction.
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types) - Through this link, I learned "Media Query" quickly. In the meantime, it helped me to implement reponsive design faster. 
-
+[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types) - Through this link, I learned "Media Query" quickly. In the meantime, it helped me to implement responsive design faster. 
 
 ## Author
 
