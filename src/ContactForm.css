@@ -1,0 +1,242 @@
+/* Style for body */
+html,
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(148, 38%, 91%);
+    overflow-y: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+h2 {
+    margin-top: -10px;
+}
+
+/* Style "for container" */
+.form-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    border-radius: 5%;
+    margin-right: -5%;
+    margin-left: -5%;
+
+}
+
+/* Style "for form" */
+.form-container>form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+/* Style for labels */
+label {
+    font-size: 16px;
+    gap: 20px;
+}
+
+/* Style for input fields (textarea/email) */
+input[type="text"],
+input[type="email"],
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+
+}
+
+/* Mouse hover styling for input fields (textarea/email) */
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover {
+    border-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+
+/* Style for "radio group" */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+
+/* Style the checked radio button's label */
+input[type="radio"]:checked+label {
+    color: #4CAF50;
+}
+
+/* Style for radio button to appears green when selected */
+input[type="radio"]:checked {
+    accent-color: hsl(169, 82%, 27%);
+}
+
+/* Style for fieldset border color when an option is selected */
+input[type="radio"]:checked+label+fieldset {
+    border-color: hsl(169, 82%, 27%);
+}
+
+/* Style for fieldset (General Enquiry/Support Request)  */
+fieldset {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+/* Style for fieldset (background and border colours) */
+.fieldset-selected {
+    background-color: #e0f7e0;
+    border-color: hsl(169, 82%, 27%);
+
+}
+
+/* Add hover effect to fieldset */
+.radio-group fieldset {
+    transition: border-color 0.3s ease;
+}
+
+.radio-group fieldset:hover {
+    border-color: hsl(169, 82%, 27%);
+    cursor: pointer;
+
+}
+
+/* Radio-group label style*/
+.radio-group label {
+    display: flex;
+    align-items: center;
+}
+
+/* "Message" text area size*/
+label[type="message"],
+textarea {
+    padding: 50px;
+}
+
+input[type="checkbox"] {
+    accent-color: hsl(169, 82%, 27%);
+}
+
+/* Style for "Submit" button */
+button[type="submit"] {
+    background-color: hsl(169, 82%, 27%);
+    padding: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: -13px;
+}
+
+.success-message {
+    color: hsl(169, 82%, 27%);
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.modal p {
+    color: hsl(169, 82%, 27%);
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.modal button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: hsl(169, 82%, 27%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for "Error message"  */
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+/* Style for "Media Queries" (Desktop screen size form 1200px - 3168px) */
+@media (min-width: 1200px) and (max-width: 3168px) {
+
+    html,
+    body {
+        padding-left: 190px;
+        padding-right: 190px;
+
+    }
+
+    h2 {
+        margin-top: -50px;
+
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+
+    }
+
+    .first-last-nameGroups {
+        display: flex;
+        gap: 10px;
+    }
+
+    .radio-group {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+
+    }
+
+
+    label[type="message"],
+    textarea {
+
+        padding: 10px;
+    }
+
+    button[type="submit"] {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
