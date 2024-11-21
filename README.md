@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://contact-form-xi-sooty.vercel.app/)
+- Solution URL: [@Mario-Balde](https://mario-balde.github.io/contact-form/)
+- Live Site URL: [@Mario-Balde](https://contact-form-xi-sooty.vercel.app/)
 
 ### Built with
 
