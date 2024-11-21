@@ -17,8 +17,8 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 
 
 ## Overview
-This is a responsive design form validation project focused on mobile-first design. In the "Mobile design", all the fields were set to stay in columns, rather than rows. However, as a responsive design project, the form was set to change its layout on desktop devices between "1200px to 3168px". The project uses "Media Queries" to achieve this functionality. 
-Therefore, on the desktop screens between "1200px to 3168px", the form layout changes ("First Name", "Last Name", General Enquiry", and "Support Request" change from columns to rows, while the rest of the fields, such as "Email Address", "Message", and "Submit button" expand their width to align).
+This is a responsive design form validation project focused on mobile-first design. In the "Mobile design", all the fields were set to stay in columns, rather than rows. However, as a responsive design project, the form was set to change its layout on the desktop with a minimum of "1440px". The project uses "Media Queries" to achieve this functionality. 
+Therefore, on the desktop device, the "First Name", "Last Name", General Enquiry", and "Support Request" stay side-by-side. In other words, they change from columns to rows, while the rest of the fields, such as "Email Address", "Message", and "Submit button" expand their width to align.
 
 ### The challenge
 
@@ -45,7 +45,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://contact-form-xi-sooty.vercel.app/)
 
 ### Built with
 
@@ -105,7 +105,7 @@ const handleSubmit = (e) => {
 ```css
 .proud-of-this-css {
 
-@media (min-width: 1200px) and (max-width: 3168px) 
+@media (min-width: 1440px)
 
 }
 ```
