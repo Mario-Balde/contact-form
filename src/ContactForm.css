@@ -194,8 +194,8 @@ button[type="submit"] {
 }
 
 
-/* Style for "Media Queries" (Desktop screen size form 1200px - 3168px) */
-@media (min-width: 1200px) and (max-width: 3168px) {
+/* Style for "Media Queries" (Desktop screen minimum 1440px) */
+@media (min-width: 1440px) {
 
     html,
     body {
