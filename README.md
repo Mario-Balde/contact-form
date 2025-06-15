@@ -33,15 +33,6 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot Solution
-
-------------------------------------------------------------MOBILE-FIRST SOLUTION-------------------------------------------------------------------
-![](./src/A-mobile-design/A1-landingPage.png)
-
-------------------------------------------------------------DESKTOP SOLUTION-------------------------------------------------------------------
-![](./src/B-desktop-design/B1-landingPage.png)
-
-
 ### Links
 
 - Solution URL: [@Mario-Balde](https://mario-balde.github.io/contact-form/)
