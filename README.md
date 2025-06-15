@@ -1,6 +1,7 @@
 # Frontend Mentor - Contact form solution
 
-This is a solution to the [Contact form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Frontend Mentor challenges help you improve your coding skills by building realistic projects that simulate real-world scenarios. 
+Challenge link: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj 
 
 ## Table of contents
 
@@ -17,7 +18,7 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 
 
 ## Overview
-This is a responsive design form validation project focused on mobile-first design. In the "Mobile design", all the fields were set to stay in columns, rather than rows. However, as a responsive design project, the form was set to change its layout on the desktop with a minimum of "1440px". The project uses "Media Queries" to achieve this functionality. 
+This is a responsive design form validation project, with a focus on mobile-first design. In the "Mobile design", all the fields were set to stay in columns, rather than rows. However, as a responsive design project, the form was set to change its layout on the desktop with a minimum of "1440px". The project uses "Media Queries" to achieve this functionality. 
 Therefore, on the desktop device, the "First Name", "Last Name", General Enquiry", and "Support Request" stay side-by-side. In other words, they change from columns to rows, while the rest of the fields, such as "Email Address", "Message", and "Submit button" expand their width to align.
 
 ### The challenge
@@ -35,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [@Mario-Balde](https://mario-balde.github.io/contact-form/)
-- Live Site URL: [@Mario-Balde](https://contact-form-xi-sooty.vercel.app/)
+- Challenge URL: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj 
+- Solution (Live Site URL): [@Mario-Balde](https://contact-form-xi-sooty.vercel.app/)
 
 ### Built with
 
