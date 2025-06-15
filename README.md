@@ -1,6 +1,7 @@
 # Frontend Mentor - Contact form solution
 
-Frontend Mentor challenges help you improve your coding skills by building realistic projects that simulate real-world scenarios. 
+Frontend Mentor challenges help you improve your coding skills by building realistic projects that simulate real-world scenarios.
+
 Challenge link: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj 
 
 ## Table of contents
