@@ -22,33 +22,28 @@ Challenge link: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj
 This is a responsive design form validation project, with a focus on mobile-first design. In the "Mobile design", all the fields were set to stay in columns, rather than rows. However, as a responsive design project, the form was set to change its layout on the desktop with a minimum of "1440px". The project uses "Media Queries" to achieve this functionality. 
 Therefore, on the desktop device, the "First Name", "Last Name", General Enquiry", and "Support Request" stay side-by-side. In other words, they change from columns to rows, while the rest of the fields, such as "Email Address", "Message", and "Submit button" expand their width to align.
 
-### The challenge
+### The challenge (Project requirements)
 
 Users should be able to:
 
 - Complete the form and see a success toast message upon successful submission
 - Receive form validation messages if:
-  - A required field has been missed
-  - The email address is not formatted correctly
-- Complete the form only using their keyboard
-- Have inputs, error messages, and the success message announced on their screen reader
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+  - A mandatory field/fields has been missed.
+  - The email address is not formatted correctly.
+- Complete the form only using their keyboard.
+- Receive inputs error messages. Otherwise, receive the success message on the UI if the form is filled properly. 
+- Responsive Design (View the optimal layout for the interface depending on their device's screen size).
+- See hover and focus states for all interactive elements on the page.
 
 ### Links
 
-- Challenge URL: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj 
-- Solution "Vercel" (Live Site URL): [@Mario-Balde](https://contact-form-xi-sooty.vercel.app/)
+- The Challenge URL: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj 
+- The Live site solution URL: [@Mario-Balde](https://contact-form-xi-sooty.vercel.app/)
 
 ### Built with
 
-- Standard Built-in HTML Elements (<form>, <input>, <textarea>, <fieldset>, <button>,)
-- CSS 
-- Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-
-
+- HTML, CSS, & React.js.
+- Workflow: Mobile-first.
 
 ### What I learned
 
@@ -112,7 +107,6 @@ REACT:
 ------"Conditional Rendering": Rendering error messages and the success modal dynamically based on the state. 
 
 CCS: Flexbox, Media Query.
-
 
 ### Useful resources
 
