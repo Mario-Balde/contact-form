@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Challenge URL: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj 
-- Solution (Live Site URL): [@Mario-Balde](https://contact-form-xi-sooty.vercel.app/)
+- Solution "Vercel" (Live Site URL): [@Mario-Balde](https://contact-form-xi-sooty.vercel.app/)
 
 ### Built with
 
